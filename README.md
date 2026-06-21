@@ -48,10 +48,11 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 5. Aguarde o processo de flashing (a tela pode demorar um pouco para aparecer).
 6. Reinicie a EEPROM.
 7. Rode o PID Autotune para calibrar a temperatura da Mesa.
-8. Rode o MPC Autotune do Hotend.
+8. Rode o MPC Autotune para calibrar a temperatura do Hotend.
 9. Aguarde o término das calibrações e salve as configurações
-10. Faça o ajuste do Z-offset antes de iniciar a primeira impressão
-11. Utilize o arquivo pré compilado por sua conta e risco
+10. Faça o ajuste do Z-Offset e salve antes de iniciar a primeira impressão
+11. Execute o Auto nivelamento da mesa sempre antes de iniciar uma impressão
+12. Utilize o arquivo de firmware pré compilado por sua conta e risco
 
 ---
 
