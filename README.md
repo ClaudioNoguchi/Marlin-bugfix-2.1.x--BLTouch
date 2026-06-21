@@ -1,3 +1,72 @@
+# Marlin Ender 3 EXtreme com BLtouch (Noguchi Custom Firmware)
+
+[![Marlin Version](https://img.shields.io/badge/Marlin-2.1.x_Bugfix-blue.svg)]()
+[![Printer](https://img.shields.io/badge/Printer-Ender_3-orange.svg)]()
+
+### Descrição
+Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no Marlin Bugfix-2.1.x.
+
+---
+
+### 📋 Configurações Principais
+| Recurso | Status | Notas |
+| :--- | :--- | :--- |
+| **BLtouch** | ✅ Ativado | Suporte a Sonda Creality CrTouch ou BLtouch e seus clones como o 3DTouch |
+| **Tramming Wizard** | ✅ Ativado | Assistente para nivelamento das molas da mesa |
+| **Z-offset Wizard** | ✅ Ativado | Assistente para definir o Z-offset entre o bico e a mesa |
+| **Bed Levelling** | ✅ Ativado | Auto nivelamento da mesa (G-code G29) |
+| **Multi-Language** | ✅ Ativado | Idiomas: Português Brasil, Inglês, Espanhol e Italiano |
+| **MPC Autotune** | ✅ Ativado | Melhor controle de temperatura do Hotend |
+| **PID Autotune** | ✅ Ativado | Melhor controle de temperatura da Mesa |
+| **Filament Runout Sensor** | ✅ Ativado | Aceita sensor de fim de filamento |
+| **S-Curve** | ✅ Ativado | Suavização de movimentação em curvas |
+| **EEPROM** | ✅ Ativado | Armazenamento de dados persistente |
+| **Temperature Presets** | ✅ Ativado |preset de temperaturas: PLA, PETG, ABS e CUSTOM |
+| **LCD Bed Leveling** | ✅ Ativado | Assistente para Auxiliar no Nivelamento da Mesa (16 Pontos)|
+| **LCD Bed Tramming** | ✅ Ativado | Assistente para Nivelar as Molas da Mesa |
+| **M600 Advanced Pause** | ✅ Ativado | Suporte ao comando M600 de troca automatica de filamento |
+| **Cancel Objects** | ✅ Ativado | Permite cancelar objetos que falharam na mesa de impressão sem perder todo o trabalho |
+| **Alguns ajustes de aceleração** || Suporte ao Octoprint |
+---
+
+### 🔌 Hardware usado para testes
+- **Placa:** Creality v4.2.2 (Preta 32-bit)
+- **Drivers:** A4988 (Motor Barulhento)
+- **Hotend:** Padrão (Stock)
+- **Extrusora:** Padrão de alumínio (Bowden)
+- **Display:** LCD Original Ender3/CR-10
+- **Placa da Mesa:** Padrão (Original Flexível)
+- **Molas:** Reforçadas (Amarelas)
+- **CRtouch:** Clone (3Dtouch)
+
+---
+
+### 🚀 Como Instalar
+1. Vá até a seção **Releases** no lado direito da página.
+2. Baixe o arquivo `firmware*.bin` da versão mais recente.
+3. Copie o arquivo para a raiz de um cartão SD formatado em FAT32.
+4. Insira na impressora desligada e ligue o equipamento.
+5. Aguarde o processo de flashing (a tela pode demorar um pouco para aparecer).
+6. Reinicie a EEPROM.
+7. Rode o PID Autotune para calibrar a temperatura da Mesa.
+8. Rode o MPC Autotune do Hotend.
+9. Aguarde o término das calibrações e salve as configurações
+10. Faça o ajuste do Z-offset antes de iniciar a primeira impressão
+11. Utilize o arquivo pré compilado por sua conta e risco
+
+---
+
+### 🛠 Para Desenvolvedores (Compilação)
+Este projeto é compilado usando **PlatformIO** no VS Code.
+- Ambiente: `STM32F103RC_creality`
+- Para compilar suas próprias alterações, utilize o comando `pio run -e STM32F103RC_creality`.
+- Recomendo utilizar a extensão Auto Build Marlin no VS Code
+
+---
+
+### ⚠️ Aviso
+Este firmware é fornecido "como está". Teste sempre a distância de segurança do bico (Z-Offset) após a atualização.
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
