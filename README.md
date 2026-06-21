@@ -23,8 +23,6 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 | **S-Curve** | ✅ Ativado | Suavização de movimentação em curvas |
 | **EEPROM** | ✅ Ativado | Armazenamento de dados persistente |
 | **Temperature Presets** | ✅ Ativado |preset de temperaturas: PLA, PETG, ABS e CUSTOM |
-| **LCD Bed Leveling** | ✅ Ativado | Assistente para Auxiliar no Nivelamento da Mesa (16 Pontos)|
-| **LCD Bed Tramming** | ✅ Ativado | Assistente para Nivelar as Molas da Mesa |
 | **M600 Advanced Pause** | ✅ Ativado | Suporte ao comando M600 de troca automatica de filamento |
 | **Cancel Objects** | ✅ Ativado | Permite cancelar objetos que falharam na mesa de impressão sem perder todo o trabalho |
 | **Alguns ajustes de aceleração** || Suporte ao Octoprint |
