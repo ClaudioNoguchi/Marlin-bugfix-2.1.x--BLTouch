@@ -65,7 +65,7 @@ Este projeto é compilado usando **PlatformIO** no VS Code.
 ## ☕ Apoie o projeto
 Se este projeto te ajudou, considere fazer uma doação de qualquer valor via Pix.
 
-Assim você ajuda no desenvolvimento das melhorias e de novas versões:
+Assim você ajuda no desenvolvimento de novas versões:
 
 **QR-Code:** 
 <p align="left"><img src="images/mercadopago.jpg" height="250" alt="Qr-code" /></p>
