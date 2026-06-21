@@ -41,7 +41,7 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 ## ☕ Apoie o projeto
 Se este projeto te ajudou, considere fazer uma doação de qualquer valor via Pix.
 
-Assim você ajuda no desenvolvimento de novas versões:
+Assim você ajuda no desenvolvimento de novas versões e mantém vivo o projeto.
 
 **QR-Code:** 
 <p align="left"><img src="images/mercadopago.jpg" height="250" alt="Qr-code" /></p>
