@@ -28,7 +28,7 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 | **Alguns ajustes de aceleração** || Suporte ao Octoprint |
 ---
 
-### 🔌 Hardware usado para testes
+### 🔌 Hardware utilizado para os testes
 - **Placa:** Creality v4.2.2 (Preta 32-bit)
 - **Drivers:** A4988 (Motor Barulhento)
 - **Hotend:** Padrão (Stock)
@@ -40,7 +40,7 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 
 ---
 
-### 🚀 Como Instalar
+### 🚀 Como Instalar e primeiras configurações
 1. Vá até a seção **Releases** no lado direito da página.
 2. Baixe o arquivo `firmware*.bin` da versão mais recente.
 3. Copie o arquivo para a raiz de um cartão SD formatado em FAT32.
@@ -60,7 +60,7 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 Este projeto é compilado usando **PlatformIO** no VS Code.
 - Ambiente: `STM32F103RC_creality`
 - Para compilar suas próprias alterações, utilize o comando `pio run -e STM32F103RC_creality`.
-- Recomendo utilizar a extensão Auto Build Marlin no VS Code
+- Recomendo utilizar a extensão Auto Build Marlin no VS Code.
 
 ---
 
