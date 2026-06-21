@@ -38,9 +38,24 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 
 ---
 
+## ☕ Apoie o projeto
+Se este projeto te ajudou, considere fazer uma doação de qualquer valor via Pix.
+
+Assim você ajuda no desenvolvimento de novas versões:
+
+**QR-Code:** 
+<p align="left"><img src="images/mercadopago.jpg" height="250" alt="Qr-code" /></p>
+
+**Pix Copia e Cola:**
+```text
+00020126580014br.gov.bcb.pix013645b7d15e-97fb-4ab5-b307-873375f2f6805204000053039865802BR5915Claudio Noguchi6009Sao Paulo62230519daqr2413867414915026304B51B
+```
+---
+
+
 ### 🚀 Como Instalar e primeiras configurações
 1. Vá até a seção **Releases** no lado direito da página.
-2. Baixe o arquivo `firmware*.bin` da versão mais recente.
+2. Baixe o arquivo [firmware*.bin](https://github.com/ClaudioNoguchi/Marlin-bugfix-2.1.x--BLTouch/releases/tag/Firmware) da versão mais recente.
 3. Copie o arquivo para a raiz de um cartão SD formatado em FAT32.
 4. Insira na impressora desligada e ligue o equipamento.
 5. Aguarde o processo de flashing (a tela pode demorar um pouco para aparecer).
@@ -62,19 +77,6 @@ Este projeto é compilado usando **PlatformIO** no VS Code.
 
 ---
 
-## ☕ Apoie o projeto
-Se este projeto te ajudou, considere fazer uma doação de qualquer valor via Pix.
-
-Assim você ajuda no desenvolvimento de novas versões:
-
-**QR-Code:** 
-<p align="left"><img src="images/mercadopago.jpg" height="250" alt="Qr-code" /></p>
-
-**Pix Copia e Cola:**
-```text
-00020126580014br.gov.bcb.pix013645b7d15e-97fb-4ab5-b307-873375f2f6805204000053039865802BR5915Claudio Noguchi6009Sao Paulo62230519daqr2413867414915026304B51B
-```
----
 
 ### ⚠️ Aviso
 Este firmware é fornecido "como está". Teste sempre a distância de segurança do bico (Z-Offset) após a atualização.
