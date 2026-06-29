@@ -27,6 +27,8 @@ Firmware customizado para Ender 3/3 pro (Placa 4.2.2) Multi idiomas baseado no M
 ---
 
 ### 🔌 Hardware utilizado para os testes
+<p align="left"><img src="images/placamae.jpg" height="250" alt="placamaejpg" /></p>
+
 - **Placa:** Creality v4.2.2 (Preta 32-bit)
 - **Drivers:** A4988 (Motor Barulhento)
 - **Hotend:** Padrão (Stock)
